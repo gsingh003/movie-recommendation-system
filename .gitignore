@@ -1,0 +1,38 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variable/config files
+*.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore large output or intermediate files
+*.log
+*.tmp
+*.bak
+
+# Ignore model files
+*.h5
+*.pkl
+*.joblib
+
+# Ignore data files (optional)
+data/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
